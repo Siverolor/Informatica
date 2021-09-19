@@ -1,7 +1,7 @@
 /*
-Sivero Lorenzo 4CI
-1)Scrivere un programma che acquisisca da tastiera una parola (cioè una stringa di caratteri priva di
-separatori) e dica se tale parola è palindroma, ossia leggibile nello stesso modo da destra a sinistra e
+Sivero Lorenzo Andrea Amodio 4CI
+1)Scrivere un programma che acquisisca da tastiera una parola (cioÃ¨ una stringa di caratteri priva di
+separatori) e dica se tale parola Ã¨ palindroma, ossia leggibile nello stesso modo da destra a sinistra e
 viceversa (es. OSSESSO).
 */
 
@@ -26,7 +26,7 @@ void convert_maiusc(char stringa[])
             stringa[i]-=32; //spazio che esiste in codice ASCII tra i caratteri maiuscoli e minuscoli 
 }
 
-//sottoprogramma che controlla se la parola è palindroma
+//sottoprogramma che controlla se la parola Ã¨ palindroma
 int controllo(char stringa[])
 {
     int palindroma=1;
@@ -38,7 +38,7 @@ int controllo(char stringa[])
     return palindroma;
 }
 
-//sottoprogramma che stampa se la parola messa è palindroma o no
+//sottoprogramma che stampa se la parola messa Ã¨ palindroma o no
 void output(int palindroma)
 {
     if(palindroma==1)
